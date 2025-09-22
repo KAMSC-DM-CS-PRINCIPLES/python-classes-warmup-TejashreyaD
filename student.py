@@ -1,5 +1,13 @@
 # TODO create class Student
 
-if __name__ == "__main__":
-    # create Student below this
-    pass
+class Student:
+    def __init__(self,Name,Grade):
+        self.Name=Name
+        self.Grade=Grade
+    def get_name(self):
+        return self.Name
+    def get_grade(self):
+        return self.Grade
+    def set_grade(self,new):
+        self.Grade=new
+        return self.Grade
