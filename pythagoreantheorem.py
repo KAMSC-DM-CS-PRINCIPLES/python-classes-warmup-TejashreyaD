@@ -11,5 +11,5 @@ class PythogaroeanTheoram:
         self.b=b
 
     def hypotenuse(self, a, b):
-        return(math.sqrt(a**2 + b**2))
+        return(math.sqrt(self.a**2 + self.b**2))
 
