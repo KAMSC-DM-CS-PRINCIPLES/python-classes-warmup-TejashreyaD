@@ -10,6 +10,6 @@ class PythogaroeanTheoram:
         self. a =a
         self.b=b
 
-    def hypotenuse(self, a, b):
+    def hypotenuse(self):
         return(math.sqrt(self.a**2 + self.b**2))
 
