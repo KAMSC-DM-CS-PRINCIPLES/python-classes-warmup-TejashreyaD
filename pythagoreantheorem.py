@@ -4,7 +4,7 @@ if __name__ == "__main__":
     # create PythagoreanTheorem below this
     pass
 
-class PythogaroeanTheoram:
+class PythogaroeanTheorem:
 
     def __init__(self,a, b):
         self. a =a
